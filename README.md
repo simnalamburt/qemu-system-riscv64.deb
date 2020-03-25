@@ -4,7 +4,10 @@ QEMU 4.2 Binary targetting riscv64-softmmu, packaged for Debian 10, *Buster*.
 Made for [Operating Systems] class of Seoul National University.
 
 ```bash
-sudo apt-get install build-essential devscripts debhelper libglib2.0-dev libpixman-1-dev
+sudo apt-get install \
+  build-essential devscripts debhelper bison flex \
+  libglib2.0-dev libpixman-1-dev
+
 ./build
 ```
 
