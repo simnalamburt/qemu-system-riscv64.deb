@@ -2,7 +2,7 @@
 TARBALL_PATH=qemu-system-riscv64_4.2.0.orig.tar.xz
 
 curl https://download.qemu.org/qemu-4.2.0.tar.xz -LC- -o "$TARBALL_PATH"
-b2sum -c <<< "27c9fbcd5093af425764674817ab9299224bd03f37b5983786f6f437fff1fab3b7da247c55c4ca8b8c42726b9867005944a2f7f04f2d0d94d753961615f901ef\
-  ./qemu-system-riscv64_4.2.0.orig.tar.xz"
+b2sum -c <<< "27c9fbcd5093af425764674817ab9299224bd03f37b5983786f6f437fff1fab3b7da247c55c4ca8b8c42726b9867005944a2f7f04f2d0d94d753961615f901ef  $TARBALL_PATH"
+tar -xf "$TARBALL_PATH"
 cd qemu-4.2.0
 debuild -us -uc
