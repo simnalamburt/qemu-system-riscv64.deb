@@ -1,0 +1,5 @@
+qemu-system-riscv64 (4.2.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Hyeon Kim <simnalamburt@gmail.com>  Wed, 25 Mar 2020 10:14:08 +0900

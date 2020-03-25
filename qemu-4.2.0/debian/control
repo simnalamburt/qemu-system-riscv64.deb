@@ -1,0 +1,15 @@
+Source: qemu-system-riscv64
+Section: otherosfs
+Priority: optional
+Maintainer: Hyeon Kim <simnalamburt@gmail.com>
+Build-Depends: debhelper (>= 9), libglib2.0-dev, libpixman-1-dev
+Standards-Version: 4.2.0
+Homepage: https://github.com/simnalamburt/qemu-system-riscv64.deb
+Vcs-Git: https://github.com/simnalamburt/qemu-system-riscv64.deb.git
+Vcs-Browser: https://github.com/simnalamburt/qemu-system-riscv64.deb
+
+Package: qemu-system-riscv64
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: greet user
+ hithere greets the user, or the world.
