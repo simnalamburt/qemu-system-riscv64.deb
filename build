@@ -1,0 +1,5 @@
+#!/bin/bash
+TARBALL_PATH=qemu_4.2.0.orig.tar.xz
+
+curl https://download.qemu.org/qemu-4.2.0.tar.xz -LC- -o "$TARBALL_PATH"
+b2sum -c qemu_4.2.0.orig.tar.xz.b2sum
