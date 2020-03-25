@@ -3,4 +3,4 @@
 	dh $@
 
 override_dh_auto_configure:
-	dh_auto_configure -- --disable-kvm --disable-werror --target-list=riscv64-softmmu
+	./configure --prefix=/usr --disable-kvm --disable-werror --target-list=riscv64-softmmu
